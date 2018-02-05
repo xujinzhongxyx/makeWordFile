@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		203C256D1FF5D3DF00D64AE5 /* word.json in Resources */ = {isa = PBXBuildFile; fileRef = 203C256C1FF5D3DF00D64AE5 /* word.json */; };
+		20500AF51FEA1075008F75E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20500AF41FEA1075008F75E9 /* AppDelegate.m */; };
+		20500AF71FEA1075008F75E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20500AF61FEA1075008F75E9 /* Assets.xcassets */; };
+		20500AFA1FEA1075008F75E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20500AF81FEA1075008F75E9 /* MainMenu.xib */; };
+		20500AFD1FEA1075008F75E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20500AFC1FEA1075008F75E9 /* main.m */; };
+		20500B0F1FEA325B008F75E9 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 20500B0C1FEA325A008F75E9 /* Helper.m */; };
+		20500B3B1FEA3FAB008F75E9 /* viewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20500B391FEA3FAB008F75E9 /* viewController.m */; };
+		20500B3C1FEA3FAB008F75E9 /* viewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20500B3A1FEA3FAB008F75E9 /* viewController.xib */; };
+		208666891FFB18E300B757DC /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 208666871FFB18E300B757DC /* Account.m */; };
+		2086668D1FFB2BC200B757DC /* newWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2086668B1FFB2BC200B757DC /* newWordViewController.m */; };
+		2086668E1FFB2BC200B757DC /* newWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2086668C1FFB2BC200B757DC /* newWordViewController.xib */; };
+		20E707031FECE0EC00512382 /* writeWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E707021FECE0EC00512382 /* writeWordView.m */; };
+		20E707061FECE0FA00512382 /* readWordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E707051FECE0FA00512382 /* readWordView.m */; };
+		FCEC0C8FFD5159A959B251F7 /* Pods_makeWordFile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78514C33B6BEA29B5C7D92A1 /* Pods_makeWordFile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		203C256C1FF5D3DF00D64AE5 /* word.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = word.json; sourceTree = "<group>"; };
+		20500AF01FEA1075008F75E9 /* makeWordFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeWordFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20500AF31FEA1075008F75E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20500AF41FEA1075008F75E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20500AF61FEA1075008F75E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20500AF91FEA1075008F75E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		20500AFB1FEA1075008F75E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20500AFC1FEA1075008F75E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20500AFE1FEA1076008F75E9 /* makeWordFile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = makeWordFile.entitlements; sourceTree = "<group>"; };
+		20500B081FEA325A008F75E9 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		20500B0B1FEA325A008F75E9 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		20500B0C1FEA325A008F75E9 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		20500B101FEA332F008F75E9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		20500B381FEA3FAB008F75E9 /* viewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viewController.h; sourceTree = "<group>"; };
+		20500B391FEA3FAB008F75E9 /* viewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewController.m; sourceTree = "<group>"; };
+		20500B3A1FEA3FAB008F75E9 /* viewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = viewController.xib; sourceTree = "<group>"; };
+		208666871FFB18E300B757DC /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		208666881FFB18E300B757DC /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		2086668A1FFB2BC200B757DC /* newWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newWordViewController.h; sourceTree = "<group>"; };
+		2086668B1FFB2BC200B757DC /* newWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newWordViewController.m; sourceTree = "<group>"; };
+		2086668C1FFB2BC200B757DC /* newWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newWordViewController.xib; sourceTree = "<group>"; };
+		20E707011FECE0EC00512382 /* writeWordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = writeWordView.h; sourceTree = "<group>"; };
+		20E707021FECE0EC00512382 /* writeWordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = writeWordView.m; sourceTree = "<group>"; };
+		20E707041FECE0FA00512382 /* readWordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readWordView.h; sourceTree = "<group>"; };
+		20E707051FECE0FA00512382 /* readWordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = readWordView.m; sourceTree = "<group>"; };
+		78514C33B6BEA29B5C7D92A1 /* Pods_makeWordFile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_makeWordFile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEA569C5E7085C4EFEE1909 /* Pods-makeWordFile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-makeWordFile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-makeWordFile/Pods-makeWordFile.debug.xcconfig"; sourceTree = "<group>"; };
+		B190DD3AED06E716FA755EA9 /* Pods-makeWordFile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-makeWordFile.release.xcconfig"; path = "Pods/Target Support Files/Pods-makeWordFile/Pods-makeWordFile.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20500AED1FEA1075008F75E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEC0C8FFD5159A959B251F7 /* Pods_makeWordFile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		203C256B1FF5D3DF00D64AE5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				203C256C1FF5D3DF00D64AE5 /* word.json */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		20500AE71FEA1075008F75E9 = {
+			isa = PBXGroup;
+			children = (
+				20500AF21FEA1075008F75E9 /* makeWordFile */,
+				20500AF11FEA1075008F75E9 /* Products */,
+				7C8DF878B68B464C8CCA874C /* Pods */,
+				BF592B8519151AD467F6C3A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20500AF11FEA1075008F75E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20500AF01FEA1075008F75E9 /* makeWordFile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20500AF21FEA1075008F75E9 /* makeWordFile */ = {
+			isa = PBXGroup;
+			children = (
+				20500B121FEA33A6008F75E9 /* viewControllers */,
+				20500B111FEA33A6008F75E9 /* views */,
+				20500B091FEA325A008F75E9 /* helper */,
+				20500B071FEA325A008F75E9 /* macro */,
+				203C256B1FF5D3DF00D64AE5 /* resource */,
+				20500AF31FEA1075008F75E9 /* AppDelegate.h */,
+				20500AF41FEA1075008F75E9 /* AppDelegate.m */,
+				20500AF61FEA1075008F75E9 /* Assets.xcassets */,
+				20500AF81FEA1075008F75E9 /* MainMenu.xib */,
+				20500AFB1FEA1075008F75E9 /* Info.plist */,
+				20500AFC1FEA1075008F75E9 /* main.m */,
+				20500AFE1FEA1076008F75E9 /* makeWordFile.entitlements */,
+				20500B101FEA332F008F75E9 /* PrefixHeader.pch */,
+			);
+			path = makeWordFile;
+			sourceTree = "<group>";
+		};
+		20500B071FEA325A008F75E9 /* macro */ = {
+			isa = PBXGroup;
+			children = (
+				20500B081FEA325A008F75E9 /* CommonMacro.h */,
+			);
+			path = macro;
+			sourceTree = "<group>";
+		};
+		20500B091FEA325A008F75E9 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				208666881FFB18E300B757DC /* Account.h */,
+				208666871FFB18E300B757DC /* Account.m */,
+				20500B0B1FEA325A008F75E9 /* Helper.h */,
+				20500B0C1FEA325A008F75E9 /* Helper.m */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		20500B111FEA33A6008F75E9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				20E707011FECE0EC00512382 /* writeWordView.h */,
+				20E707021FECE0EC00512382 /* writeWordView.m */,
+				20E707041FECE0FA00512382 /* readWordView.h */,
+				20E707051FECE0FA00512382 /* readWordView.m */,
+			);
+			name = views;
+			path = makeWordFile/views;
+			sourceTree = SOURCE_ROOT;
+		};
+		20500B121FEA33A6008F75E9 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				20500B381FEA3FAB008F75E9 /* viewController.h */,
+				20500B391FEA3FAB008F75E9 /* viewController.m */,
+				20500B3A1FEA3FAB008F75E9 /* viewController.xib */,
+				2086668A1FFB2BC200B757DC /* newWordViewController.h */,
+				2086668B1FFB2BC200B757DC /* newWordViewController.m */,
+				2086668C1FFB2BC200B757DC /* newWordViewController.xib */,
+			);
+			name = viewControllers;
+			path = makeWordFile/viewControllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		7C8DF878B68B464C8CCA874C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA569C5E7085C4EFEE1909 /* Pods-makeWordFile.debug.xcconfig */,
+				B190DD3AED06E716FA755EA9 /* Pods-makeWordFile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF592B8519151AD467F6C3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78514C33B6BEA29B5C7D92A1 /* Pods_makeWordFile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20500AEF1FEA1075008F75E9 /* makeWordFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20500B011FEA1076008F75E9 /* Build configuration list for PBXNativeTarget "makeWordFile" */;
+			buildPhases = (
+				4F6ED7C740F85AF23B8A055A /* [CP] Check Pods Manifest.lock */,
+				20500AEC1FEA1075008F75E9 /* Sources */,
+				20500AED1FEA1075008F75E9 /* Frameworks */,
+				20500AEE1FEA1075008F75E9 /* Resources */,
+				CEFF144AA2FCB1433AD31F12 /* [CP] Embed Pods Frameworks */,
+				0F60F8D63C80C6707619B456 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = makeWordFile;
+			productName = makeWordFile;
+			productReference = 20500AF01FEA1075008F75E9 /* makeWordFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20500AE81FEA1075008F75E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xujinzhong;
+				TargetAttributes = {
+					20500AEF1FEA1075008F75E9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 20500AEB1FEA1075008F75E9 /* Build configuration list for PBXProject "makeWordFile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20500AE71FEA1075008F75E9;
+			productRefGroup = 20500AF11FEA1075008F75E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20500AEF1FEA1075008F75E9 /* makeWordFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20500AEE1FEA1075008F75E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20500AF71FEA1075008F75E9 /* Assets.xcassets in Resources */,
+				20500B3C1FEA3FAB008F75E9 /* viewController.xib in Resources */,
+				203C256D1FF5D3DF00D64AE5 /* word.json in Resources */,
+				2086668E1FFB2BC200B757DC /* newWordViewController.xib in Resources */,
+				20500AFA1FEA1075008F75E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F60F8D63C80C6707619B456 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-makeWordFile/Pods-makeWordFile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6ED7C740F85AF23B8A055A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFF144AA2FCB1433AD31F12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-makeWordFile/Pods-makeWordFile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20500AEC1FEA1075008F75E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E707061FECE0FA00512382 /* readWordView.m in Sources */,
+				208666891FFB18E300B757DC /* Account.m in Sources */,
+				2086668D1FFB2BC200B757DC /* newWordViewController.m in Sources */,
+				20E707031FECE0EC00512382 /* writeWordView.m in Sources */,
+				20500AFD1FEA1075008F75E9 /* main.m in Sources */,
+				20500AF51FEA1075008F75E9 /* AppDelegate.m in Sources */,
+				20500B0F1FEA325B008F75E9 /* Helper.m in Sources */,
+				20500B3B1FEA3FAB008F75E9 /* viewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20500AF81FEA1075008F75E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20500AF91FEA1075008F75E9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20500AFF1FEA1076008F75E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20500B001FEA1076008F75E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		20500B021FEA1076008F75E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABEA569C5E7085C4EFEE1909 /* Pods-makeWordFile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = makeWordFile/makeWordFile.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: daliangaoxinyuanqu jack family (XQMLDGQF87)";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = makeWordFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordofmacbook.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		20500B031FEA1076008F75E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B190DD3AED06E716FA755EA9 /* Pods-makeWordFile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = makeWordFile/makeWordFile.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: daliangaoxinyuanqu jack family (XQMLDGQF87)";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = makeWordFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wordofmacbook.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20500AEB1FEA1075008F75E9 /* Build configuration list for PBXProject "makeWordFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20500AFF1FEA1076008F75E9 /* Debug */,
+				20500B001FEA1076008F75E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20500B011FEA1076008F75E9 /* Build configuration list for PBXNativeTarget "makeWordFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20500B021FEA1076008F75E9 /* Debug */,
+				20500B031FEA1076008F75E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20500AE81FEA1075008F75E9 /* Project object */;
+}
